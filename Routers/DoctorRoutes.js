@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { getStats, getRecentActivities } = require("../controllers/adminController");
+const { getStats, getRecentActivities } = require("../Controllers/AdminController");
  
 // GET /api/admin/stats
 router.get("/stats", getStats);
