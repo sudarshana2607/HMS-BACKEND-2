@@ -5,7 +5,7 @@ const {
   getAllSchedules,
   getScheduleById,
   deleteSchedule,
-} = require("../controllers/scheduleController");
+} = require("../Controllers/ScheduleController");
  
 // POST   /api/schedule/create
 router.post("/create", createSchedule);

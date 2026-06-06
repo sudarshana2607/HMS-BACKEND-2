@@ -6,7 +6,7 @@ const {
   getReportById,
   getReportsByPatient,
   deleteReport,
-} = require("../controllers/reportController");
+} = require("../Controllers/ReportController");
  
 // POST   /api/report/create
 router.post("/create", createReport);
