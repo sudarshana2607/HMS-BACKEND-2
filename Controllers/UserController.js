@@ -1,4 +1,4 @@
-const User = require("../modals/User");
+const User = require("../Modals/User");
  
 // GET /api/user/doctors
 // Returns all users with role "doctor"
